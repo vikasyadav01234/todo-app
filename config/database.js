@@ -6,4 +6,12 @@ const dbConnect = () =>{
         useNewUrlParser:true,
         useUnifiedTopology: true,
     })
+    .then(() => console.log("DB ka connection is Successful"))
+    .catch( (error)=>{
+        console.log("Issue in DB Connnection");
+        console.error(error.message);
+        process.exit(1);
+    });
 }
+
+module.exports = dbConnect;
