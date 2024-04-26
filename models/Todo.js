@@ -1,3 +1,3 @@
 const mongoose = require("mongoose");
 
-const todu
+const toduSchema = new mongoose.STATES
