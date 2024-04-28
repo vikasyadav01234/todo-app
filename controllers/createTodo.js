@@ -8,6 +8,7 @@ exports.createTodo = async(req,res) => {
         //extract title and description from request body
         const {title,description} = req.body;
         //create a new Todo Obj and insert in DB
+        const response = await Todo.create({})
     }
     catch(err){
 
