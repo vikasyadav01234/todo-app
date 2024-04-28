@@ -5,9 +5,9 @@ const Todo = require("../models/Todo");
 
 exports.createTodo = async(req,res) => {
     try{
-
+        //extract title
     }
     catch(err){
-        
+
     }
 }
