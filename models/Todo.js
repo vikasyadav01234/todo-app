@@ -23,4 +23,4 @@ const toduSchema = new mongoose.Schema(
             default:Date.now(),
         }
     }
-)
+);
