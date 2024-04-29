@@ -4,7 +4,7 @@ const app = express();
 //load config from env file
 require("dotenv").config();
 
-const PORT = process.
+const PORT = process.env
 app.listen(3000, () => {
 
 
