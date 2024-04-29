@@ -17,5 +17,5 @@ app.use("/api/v1", todoRoutes);
 
 //start servers
 app.listen(PORT, ()=>{
-    console.logs
+    console.log
 })
