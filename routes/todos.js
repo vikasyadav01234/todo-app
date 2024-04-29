@@ -8,5 +8,4 @@ const {getTodo} = require("../controllers/getTodo");
 router.post("/createTodo",createTodo);
 
 router.get("/getTodos")
-
 module.exports = router;
