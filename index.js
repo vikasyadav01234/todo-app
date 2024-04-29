@@ -16,4 +16,4 @@ const todoRoutes = require("./routes/todos");
 app.use("/api/v1", todoRoutes);
 
 //start servers
-app.listen
+app.listen(PORT)
