@@ -30,3 +30,5 @@ exports.createTodo = async(req,res) => {
         })
     }
 }
+
+module.export = {this.createTodo};
