@@ -24,7 +24,7 @@ exports.createTodo = async(req,res) => {
         console.log(err);
         res.status(500)
         .json({
-            success:true,
+            success:false,
             data:"internal"
         })
     }
