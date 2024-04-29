@@ -21,4 +21,4 @@ app.listen(PORT, ()=>{
 })
 
 //connect to the database
-const db
+const dbConnect = re
