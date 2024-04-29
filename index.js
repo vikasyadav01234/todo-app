@@ -24,4 +24,4 @@ app.listen(PORT, ()=>{
 const dbConnect = require("./config/database");
 dbConnect();
 
-//default 
+//default Route
