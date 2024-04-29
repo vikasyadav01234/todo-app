@@ -7,9 +7,4 @@ require("dotenv").config();
 const PORT = process.env.PORT || 4000;
 
 //middleware to parse json request body
-app.use()
-app.listen(3000, () => {
-
-
-    console.log("App is Running Successfully ")
-})
+app.use(express)
