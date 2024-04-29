@@ -2,7 +2,7 @@
 const Todo = require("../models/Todo");
 
 
-exports.createTodo = async(req,res) => {
+exports.getTodo = async(req,res) => {
     try{
         
     }
