@@ -22,3 +22,4 @@ app.listen(PORT, ()=>{
 
 //connect to the database
 const dbConnect = require("./config/database");
+db
