@@ -25,7 +25,7 @@ exports.createTodo = async(req,res) => {
         res.status(500)
         .json({
             success:false,
-            data:"internal"
+            data:"internal server"
         })
     }
 }
