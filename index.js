@@ -25,4 +25,4 @@ const dbConnect = require("./config/database");
 dbConnect();
 
 //default Route
-app.get("/", )
+app.get("/", (req,res))
