@@ -17,7 +17,7 @@ exports.createTodo = async(req,res) => {
                 data:response,
                 message:"Entry Created Successfully"
             }
-        )
+        );
     }
     catch(err){
 
