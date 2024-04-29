@@ -2,4 +2,4 @@ const express = require("express");
 const router = express.router();
 
 //import controller
-const {createTodo} = require("../contr")
+const {createTodo} = require("../controllers")
