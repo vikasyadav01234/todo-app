@@ -1,2 +1,2 @@
 const express = require("express");
-const router = 
+const router = express.router();
