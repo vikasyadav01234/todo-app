@@ -7,5 +7,5 @@ const {getTodo} = require("../controllers/getTodo");
 //define API routes
 router.post("/createTodo",createTodo);
 
-router.get("/getTodos")
+router.get("/getTodos", getTodo)
 module.exports = router;
