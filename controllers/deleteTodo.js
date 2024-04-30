@@ -14,6 +14,12 @@ exports.deleteTodo = async(req,res) => {
        })
     }
     catch(err){
-       
+        console.error(err);
+        res.status(500)
+        .json({
+            success:false,
+            error:err.message,
+            message:'Server Error',
+        });
     }
 }
