@@ -32,7 +32,9 @@ exports.getTodoById = async(req,res) => {
         const todo = await Todo.findById( {_id:id} )
         //data forgiven id not found
         if(!todo){
-            return res.status(404).json()
+            return res.status(404).json({
+                success:false,
+            })
         }
     }
     catch(err){
