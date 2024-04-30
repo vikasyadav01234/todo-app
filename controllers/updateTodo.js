@@ -10,8 +10,14 @@ exports.updateTodo = async(req,res) => {
 
        const todo = await Todo.findByIdAndUpdate(
         {_id:id},
-        {title, description, updateAt: Date.now()}
+        {title, description, updateAt: Date.now()},
        )
+       //data for given id Found
+       res.status(200).json({
+        success:true,
+        data:todo,
+        message: `Todo ${id} data successfully fetched`,
+        })
     }
     catch(err){
        
