@@ -27,6 +27,6 @@ exports.createTodo = async(req,res) => {
             success:false,
             data:"internal server err",
             messaage:err.message,
-        })
+        });
     }
 }
