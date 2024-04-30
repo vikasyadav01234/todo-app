@@ -15,6 +15,6 @@ exports.getTodo = async(req,res) => {
         })
     }
     catch(err){
-        
+        console.error(err);
     }
 }
