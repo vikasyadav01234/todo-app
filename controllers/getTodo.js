@@ -12,7 +12,7 @@ exports.getTodo = async(req,res) => {
             success:true,
             data:todos,
             message:"Entire Todo Data is fetched",
-        })
+        });
     }
     catch(err){
         console.error(err);
@@ -21,6 +21,6 @@ exports.getTodo = async(req,res) => {
             success:false,
             error:err.message,
             message:'Server Error',
-        })
+        });
     }
 }
