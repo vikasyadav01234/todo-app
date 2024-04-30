@@ -27,7 +27,9 @@ exports.getTodo = async(req,res) => {
 
 exports.getTodoById = async(req,res) => {
     try{
+
     }
     catch(err){
+        
     }
 }
