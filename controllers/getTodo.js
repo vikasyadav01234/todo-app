@@ -34,6 +34,7 @@ exports.getTodoById = async(req,res) => {
         if(!todo){
             return res.status(404).json({
                 success:false,
+                message:"No Data Found with given id",
             })
         }
     }
