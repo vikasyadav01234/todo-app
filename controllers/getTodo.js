@@ -27,7 +27,7 @@ exports.getTodo = async(req,res) => {
 
 exports.getTodoById = async(req,res) => {
     try{
-        
+        //extract todo items basics on id
     }
     catch(err){
 
