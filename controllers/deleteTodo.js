@@ -10,7 +10,7 @@ exports.deleteTodo = async(req,res) => {
 
        res.json({
         success:true,
-        message:"Todo Deleted"
+        message:"Todo Deleted",
        })
     }
     catch(err){
