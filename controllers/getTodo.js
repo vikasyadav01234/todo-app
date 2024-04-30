@@ -4,7 +4,7 @@ const Todo = require("../models/Todo");
 
 exports.getTodo = async(req,res) => {
     try{
-        
+        //fetch all todo items from database
     }
     catch(err){
         
