@@ -10,6 +10,7 @@ exports.updateTodo = async(req,res) => {
 
        const todo = await Todo.findByIdAndUpdate(
         {_id:id},
+        {title, description, updateAt: Date.now()}
        )
     }
     catch(err){
