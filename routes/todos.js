@@ -10,5 +10,6 @@ const {deleteTodo} = require("../controllers/deleteTodo");
 router.post("/createTodo",createTodo);
 router.get("/getTodos", getTodo);
 router.get("/getTodos/:id", getTodoById);
-router.put("/updateTodo/:id", updateTodo)
+router.put("/updateTodo/:id", updateTodo);
+
 module.exports = router;
