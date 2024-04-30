@@ -38,6 +38,11 @@ exports.getTodoById = async(req,res) => {
             })
         }
         //data for given id Found
+        res.status(200).json({
+            success:true,
+            data:todo,
+            message: `Todo ${id} data successfully`
+        })
     }
     catch(err){
 
